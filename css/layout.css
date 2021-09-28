@@ -226,6 +226,107 @@ header{
     width: 100%;
 }
 
+.main{
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 20px;
+}
+
+.main p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.main h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.main h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.boton{
+    width: 60px;
+    height: 30px;
+    color: black;
+    background: transparent;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background-color: #07E7DD;
+    color: white;
+}
+
+td,th{
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+#create-button{
+    width: 200px;
+    height: 30px;
+    color: black;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#ventana{
+    background-color: blue;
+    width: 30%;
+    color: blanchedalmond;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 34%;
+    bottom: 43%;
+    display: none;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
 @media (min-width:1024px){
     header{
         display: flex;
